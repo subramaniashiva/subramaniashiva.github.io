@@ -1,15 +1,460 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="canonical" href="http://registry.jsonresume.org/sivasubramaniam" />
-    <meta http-equiv="refresh" content="1; url=http://registry.jsonresume.org/sivasubramaniam" />
-    <script>
-      if(window.location && window.location.href)
-        window.location.href = "http://registry.jsonresume.org/sivasubramaniam";
-    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Siva Subramaniam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='style/style.css' rel='stylesheet' type='text/css'>
+    <!-- link rel="shortcut icon" href="favicon.ico" / -->
   </head>
-  <body>
-    <p>Please wait while you are being redirected to resume page.</p>
-    <p><a href="http://registry.jsonresume.org/sivasubramaniam">Click here</a> if you are not redirected.</p>
+
+  <body itemscope itemtype="http://schema.org/Person">
+    <script>
+      window.onload = function () {
+        var toggleFloatingMenu = function() {
+          $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+          $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+        };
+
+        $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+        $( "[rel=tooltip]" ).tooltip();
+        $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+          e.preventDefault();
+          toggleFloatingMenu();
+        });
+        $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
+      }
+    </script>
+    <div class="container-fluid">
+      <div class="row main clearfix">
+        <a href="#" class="js-floating-nav-trigger floating-nav-trigger">
+          <i class="fa fa-bars"></i>
+          <span class="close-icon">&times;</span>
+        </a>
+        <nav class="floating-nav js-floating-nav">
+          <ul class="list-unstyled">
+            <li>
+              <a href="#about">
+                <i class="fa fa-user"></i>
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#work-experience">
+                <i class="fa fa-building"></i>
+                Work Experience
+              </a>
+            </li>
+            <li>
+              <a href="#skills">
+                <i class="fa fa-code"></i>
+                Skills
+              </a>
+            </li>
+            <li>
+              <a href="#education">
+                <i class="fa fa-mortar-board"></i>
+                Education
+              </a>
+            </li>
+              <li>
+                <a href="#interests">
+                  <i class="fa fa-heart"></i>
+                  Interests
+                </a>
+              </li>
+          </ul>
+        </nav>
+
+        <section class="col-md-3 card-wrapper profile-card-wrapper affix">
+          <div class="card profile-card">
+              <span class="profile-pic-container">
+                <div class="profile-pic">
+                  <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
+                    alt="Siva Subramaniam" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/000/2c1/077/2797f97.jpg" itemprop="image">
+                </div>
+
+                <div class="name-and-profession">
+                  <h3 class="text-center text-bolder name" itemprop="name"> Siva Subramaniam</h3>
+                  <h5 class="text-muted text-center" itemprop="jobTitle">JavaScript Developer</h5>
+                </div>
+              </span>
+              <hr>
+
+              <div class="contact-details clearfix">
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-location-arrow"></i>
+                    </span>
+
+                      <span class="info">
+                        Bangalore, Karnataka,
+                        India
+                      </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-phone"></i>
+                    </span>
+
+                    <span class="info" itemprop="telephone">
+                      +91 8050093404
+                    </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon">
+                      <i class="fa fa-lg fa-envelope"></i>
+                    </span>
+
+                    <span class="info">
+                      <a href="mailto:vengaishiva@gmail.com" class="link-disguise" itemprop="email">vengaishiva@gmail.com</a>
+                    </span>
+                  </div>
+
+                  <div class="detail">
+                    <span class="icon" title="Languages I speak">
+                      <i class="fa fa-lg fa-language"></i>
+                    </span>
+
+                    <span class="info">
+                      English, Tamil, Hindi
+                    </span>
+                  </div>
+              </div>
+
+              <hr>
+
+              <div class="social-links text-center">
+                  <a class="fa fa-linkedin fa-2x social-link link-linkedin"
+                       href="https://www.linkedin.com/profile/view?id=78238533" target="_blank"></a>
+                  <a class="fa fa-github fa-2x social-link link-github"
+                       href="//github.com/subramaniashiva" target="_blank"></a>
+              </div>
+          </div>
+        </section>
+
+        <section class="col-md-9 card-wrapper pull-right">
+          <div class="card background-card">
+            <h4 class="text-uppercase text-bolder">Background</h4>
+            <hr>
+
+            <div class="background-details">
+              <div class="detail" id="about">
+                <div class="icon">
+                  <i class="fa fa-lg fa-user"></i>
+                  <span class="mobile-title">About</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    About
+                  </h4>
+
+                  <div class="content" itemprop="description">
+                    A full stack developer by ability, JavaScript developer by heart. A constant learner who considers himself as a noob in Android and Angular JS now. Total experience is 4.6 years. Currently working with FusionCharts as Javascript developer. Before joining FusionCharts, tried his hands into entrepreneurship and got his fingers burnt. Was the Lead, Web Solutions for the company Spark n&#x27; Beyond which he was running with his friends for 2.5 years. It all started as a fresher out of college, who joined in Sapient as a C# developer in the year 2010. 
+                  </div>
+                </div>
+              </div>
+
+              <div class="detail" id="work-experience">
+                <div class="icon">
+                  <i class="fa fa-lg fa-building"></i>
+                  <span class="mobile-title">Work Experience</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    Work Experience
+                  </h4>
+
+                  <ul class="list-unstyled">
+                      <li class="card card-nested clearfix">
+                        <div class="content">
+                          <p class="clear-margin relative">
+                            <strong>Software Developer</strong>,&nbsp;
+                              <a href="http://www.fusioncharts.com"  target="_blank">FusionCharts</a>
+                          </p>
+                          <p class="text-muted">
+                            <small>
+                              <span class="space-right">
+                                Jul, 2014 -
+                                  Present
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  0 day
+                                </span>
+                            </small>
+                          </p>
+                          <p>FusionCharts is one of the industry&#x27;s leading Javascript charting frameworks. Was a part of the developer team which creates dashboards using the FusionCharts Library. Also involved in creating tools for the content writers&#x27; team.</p>
+                            <ul>
+                                <li> JavaScript and HTML5 - Built an Audio Player with an equalizer using HTML5 Audio API and FusionCharts Library. Link: [http://www.fusioncharts.com/dashboards/music-player/] </li>
+                                <li> JavaScript - Built the collaboration dashboard, which enables the business users to share data and insights in their business dashboards in a social media like interface. The entire dashboard logic is written in vanilla javascript and using FusionCharts Library. Link: [http://www.fusioncharts.com/dashboards/collaboration/]  </li>
+                                <li> Server-side JavaScript (AppScript) - Created a Google Doc plugin, which enables the content writers to convert / save / download the Google Doc into MD format. This plugin was published in Google App store for internal use. Link: [https://github.com/subramaniashiva/gdoc-markdown-converter] </li>
+                            </ul>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content">
+                          <p class="clear-margin relative">
+                            <strong>Entrepreneur, Lead - Web Solutions</strong>,&nbsp;
+                              <a href="www.sparknbeyond.com"  target="_blank">Spark n&#x27; Beyond</a>
+                          </p>
+                          <p class="text-muted">
+                            <small>
+                              <span class="space-right">
+                                Dec, 2011 -
+                                  Apr, 2014
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  2 years 4 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>A service based company recognised as one of the promising startups by IIT Guwahathi in 2012 [http://www.gyancentral.com/articles/updates/placement/institute-updates/iit-guwahati-to-declare-techniche-2012] Was leading the web solutions wing responsible for developing websites and web applications.</p>
+                            <ul>
+                                <li> HTML5, CSS3 - Revamped the site of Spark n&#x27; Beyond from Flash to HTML5. The site received lot of attention (attracted businesses too) with an average of 1.5K users per month, and average of 3.5 minutes on the website. Link: [http://sparknbeyond.com/] </li>
+                                <li> Responsive Development - Developed the entire user interface of Calibrace web application using Bootstrap and JQuery. Link: [www.calibrace.com] </li>
+                                <li> Webpage optimisation - Optimised page speed of Calibrace &amp; Spark n&#x27; Beyond sites using  Google&#x27;s Page insight tool and Yahoo&#x27;s YSlow tool. </li>
+                                <li> PHP - Developed the website for caresquare - a crowd sourced health tips site for pregnant  women.This application uses Facebook&#x27;s API to post user&#x27;s health tips in their profile as well as in the site. The health tips are stored in MySQL Database </li>
+                                <li> Joomla / Wordpress - Developed websites using Joomla and wordpress platforms. Have created custom themes. Link: [http://ruralchannels.ifmr.co.in/] </li>
+                            </ul>
+                        </div>
+                      </li>
+                      <li class="card card-nested clearfix">
+                        <div class="content">
+                          <p class="clear-margin relative">
+                            <strong>Associate L1</strong>,&nbsp;
+                              <a href="www.sapient.com"  target="_blank">Sapient</a>
+                          </p>
+                          <p class="text-muted">
+                            <small>
+                              <span class="space-right">
+                                Jul, 2010 -
+                                  Dec, 2011
+                              </span>
+
+                                <span>
+                                  <i class="fa fa-clock-o icon-left"></i>
+                                  1 year 5 months
+                                </span>
+                            </small>
+                          </p>
+                          <p>Worked as a C# / C++ developer in Sapient for the client Citadel, one of the leading hedge fund companies.</p>
+                            <ul>
+                                <li> Developed a complete Automated UI testing framework for windows using PRISM, C# and  Ranorex tool </li>
+                                <li> This testing framework accepts UI element&#x27;s path and the data to be fed into that element as input  and automatically runs the UI test, generates reports and mail them. </li>
+                            </ul>
+                        </div>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="detail" id="skills">
+                <div class="icon">
+                  <i class="fa fa-lg fa-code"></i>
+                  <span class="mobile-title">Skills</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    Skills
+                  </h4>
+
+                  <div class="content">
+                    <ul class="list-unstyled">
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
+                              <div class="skill-progress master">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Web Development</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Javascript</span>
+                                <span class="label label-keyword">HTML</span>
+                                <span class="label label-keyword">CSS</span>
+                                <span class="label label-keyword">Responsive Web Developement</span>
+                                <span class="label label-keyword">JQuery</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
+                              <div class="skill-progress master">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Webpage Optimization</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Client side</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Beginner" data-placement="left">
+                              <div class="skill-progress beginner">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Android Application</strong>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword">Native Android apps</span>
+                                <span class="label label-keyword"></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="Beginner" data-placement="left">
+                              <div class="skill-progress beginner">
+                              </div>
+                            </div>
+                          <div class="skill-info">
+                            <strong>Angular JS</strong>
+
+                            <div class="space-top labels">
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                          <div class="skill-info">
+                            <strong></strong>
+
+                            <div class="space-top labels">
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="detail" id="education">
+                <div class="icon">
+                  <i class="fa fa-lg fa-mortar-board"></i>
+                  <span class="mobile-title">Education</span>
+                </div>
+                <div class="info">
+                  <h4 class="title text-uppercase">
+                    Education
+                  </h4>
+
+                  <div class="content">
+                    <ul class="list-unstyled">
+                        <li class="card card-nested">
+                          <div class="content">
+                            <p class="clear-margin relative">
+
+                              <strong>Information Technology, Bachelor</strong>,&nbsp;
+                              Government College of Technology, Coimbatore
+                            </p>
+                            <p class="text-muted">
+                              <small>
+                                Aug, 2006 -
+                                  Apr, 2010
+                              </small>
+                            </p>
+                            <i>8.3</i>
+                            <div class="space-top labels">
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested">
+                          <div class="content">
+                            <p class="clear-margin relative">
+
+                              <strong>HSC, State Board</strong>,&nbsp;
+                              RoseMary Matric Hr. Sec. School
+                            </p>
+                            <p class="text-muted">
+                              <small>
+                                May, 2005 -
+                                  Mar, 2006
+                              </small>
+                            </p>
+                            <i>96.4%</i>
+                            <div class="space-top labels">
+                            </div>
+                          </div>
+                        </li>
+                        <li class="card card-nested">
+                          <div class="content">
+                            <p class="clear-margin relative">
+
+                              <strong>SSLC, State Board</strong>,&nbsp;
+                              St. John&#x27;s Hr. Sec. School
+                            </p>
+                            <p class="text-muted">
+                              <small>
+                                Jun, 2003 -
+                                  Mar, 2004
+                              </small>
+                            </p>
+                            <i>97%</i>
+                            <div class="space-top labels">
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+                <div class="detail" id="interests">
+                  <div class="icon">
+                    <i class="fa fa-lg fa-heart"></i>
+                    <span class="mobile-title">Interests</span>
+                  </div>
+                  <div class="info">
+                    <h4 class="title text-uppercase">
+                      Interests
+                    </h4>
+
+                    <div class="content">
+                      <ul class="list-unstyled">
+                          <li class="card card-nested">
+                            <p>
+                              <strong>Astronomy</strong>
+                            </p>
+
+                            <div class="space-top labels">
+                            </div>
+                          </li>
+                          <li class="card card-nested">
+                            <p>
+                              <strong>Psychology</strong>
+                            </p>
+
+                            <div class="space-top labels">
+                                <span class="label label-keyword"></span>
+                            </div>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js"></script>
   </body>
 </html>
