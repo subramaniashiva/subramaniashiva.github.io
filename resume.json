@@ -1,0 +1,163 @@
+{
+  "basics": {
+    "name": "Siva Subramaniam R S",
+    "label": "JavaScript Developer",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/000/2c1/077/2797f97.jpg",
+    "email": "vengaishiva@gmail.com",
+    "phone": "+91 8050093404",
+    "website": "http://subramaniashiva.github.io",
+    "summary": "A full stack developer by ability, JavaScript developer by heart. A constant learner who considers himself as a noob in Android and Angular JS now. Total experience is 5 years. Currently working with FusionCharts as Javascript developer. Before joining FusionCharts, tried his hands into entrepreneurship and got his fingers burnt. Was the Lead, Web Solutions for the company Spark n' Beyond which he was running with his friends for 2.5 years. It all started as a fresher out of college, who joined in Sapient as a C# developer in the year 2010.",
+    "location": {
+      "city": "Bangalore",
+      "countryCode": "IN"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/profile/view?id=78238533"
+      },
+      {
+        "network": "Github",
+        "username": "subramaniashiva",
+        "url": "http://github.com/subramaniashiva"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "FusionCharts",
+      "position": "Software Developer",
+      "website": "http://www.fusioncharts.com",
+      "startDate": "2014-08-01",
+      "summary": "FusionCharts is one of the industry's leading Javascript charting frameworks. Was a part of the developer team which creates dashboards using the FusionCharts Library. Also involved in creating tools for the content writers' team.",
+      "highlights": [
+        "JavaScript and HTML5 - Built an Audio Player with an equalizer using HTML5 Audio API and FusionCharts Library. Link: [http://www.fusioncharts.com/dashboards/music-player/]",
+        "JavaScript - Built the collaboration dashboard, which enables the business users to share data and insights in their business dashboards in a social media like interface. The entire dashboard logic is written in vanilla javascript and using FusionCharts Library. Link: [http://www.fusioncharts.com/dashboards/collaboration/]",
+        "Server-side JavaScript (AppScript) - Created a Google Doc plugin, which enables the content writers to convert / save / download the Google Doc into MD format. This plugin was published in Google App store for internal use. Link: [https://github.com/subramaniashiva/gdoc-markdown-converter]"
+      ]
+    },
+    {
+      "company": "Spark n' Beyond",
+      "position": "Entrepreneur, Lead - Web Solutions",
+      "website": "http://www.sparknbeyond.com",
+      "startDate": "2012-01-01",
+      "endDate": "2014-04-30",
+      "summary": "A service based company recognised as one of the promising startups by IIT Guwahathi in 2012 [http://www.gyancentral.com/articles/updates/placement/institute-updates/iit-guwahati-to-declare-techniche-2012] Was leading the web solutions wing responsible for developing websites and web applications.",
+      "highlights": [
+        "HTML5, CSS3 - Revamped the site of Spark n' Beyond from Flash to HTML5. The site received lot of attention (attracted businesses too) with an average of 1.5K users per month, and average of 3.5 minutes on the website. Link: [http://sparknbeyond.com/]",
+        "Responsive Development - Developed the entire user interface of Calibrace web application using Bootstrap and JQuery. Link: [www.calibrace.com]",
+        "PHP - Developed the website for caresquare - a crowd sourced health tips site for pregnant women.This application uses Facebook's API to post user's health tips in their profile as well as in the site. The health tips are stored in MySQL Database",
+        "Joomla / Wordpress - Developed websites using Joomla and wordpress platforms. Have created custom themes. Link: [http://ruralchannels.ifmr.co.in/]"
+      ]
+    },
+    {
+      "company": "Sapient",
+      "position": "Associate Technology - L1",
+      "website": "http://www.sapient.com",
+      "startDate": "2010-07-05",
+      "endDate": "2011-12-31",
+      "summary": "Worked as a C# / C++ developer in Sapient for the client Citadel, one of the leading hedge fund companies.",
+      "highlights": [
+        "Developed a complete Automated UI testing framework for windows using PRISM, C# and Ranorex tool",
+        "This testing framework accepts UI element's path and the data to be fed into that element as input and automatically runs the UI test, generates reports and mail them."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Government College of Technology, Coimbatore",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2006-08-07",
+      "endDate": "2010-05-31",
+      "gpa": "8.3",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Programming in C++",
+        "Programming in Java",
+        "Unix Systems",
+        "Computer Architecture",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "institution": "Rosemary Matric Hr.Sec. School",
+      "area": "Maths, Compute Science",
+      "studyType": "HSC, State Board",
+      "startDate": "2004-06-01",
+      "endDate": "2006-03-31",
+      "gpa": "96.4%"
+    },
+    {
+      "institution": "St.John's Hr.Sec. School",
+      "area": "Maths, Science",
+      "studyType": "SSLC, State Board",
+      "startDate": "2003-06-01",
+      "endDate": "2004-04-30",
+      "gpa": "97%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Vanilla JS",
+        "Front end",
+        "Basics of node.js"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SASS",
+        "Responsive Web Development"
+      ]
+    },
+    {
+      "name": "Web Page Optimization",
+      "level": "Master",
+      "keywords": [
+        "Profiling",
+        "Web Page Auditing"
+      ]
+    },
+    {
+      "name": "Angular JS",
+      "level": "Beginner"
+    },
+    {
+      "name": "Android Application Development",
+      "level": "Beginner"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Tamil",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "French",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Astronomy"
+    },
+    {
+      "name": "Psychology"
+    }
+  ]
+}
