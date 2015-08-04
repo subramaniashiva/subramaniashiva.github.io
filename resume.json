@@ -31,7 +31,10 @@
       "startDate": "2014-08-01",
       "summary": "FusionCharts is one of the industry's leading Javascript charting frameworks. Was a part of the developer team which creates dashboards using the FusionCharts Library. Also involved in creating tools for the content writers' team.",
       "highlights": [
+        "Flickr New Tab for Chrome - Load the new tab page with a photo from Flickr Stream. You can choose the type of photos that you want to see. This extension is an improvement on the official flickr extension for chrome. This extension allows the user to select the type of images that they want to see. This extension is faster than the official flickr extension. I have created this as free time project. I have used DNS prefetch, localStorage, dynamic creation of image elements for improved performance. Full source code can be viewed here https://github.com/subramaniashiva/flickr-new-tab-chrome. The extension can be added to chrome from here : https://chrome.google.com/webstore/detail/flickr-new-tab/okjegjakfleakclpecombdodpfdkahea",
         "JavaScript and HTML5 - Built an Audio Player with an equalizer using HTML5 Audio API and FusionCharts Library. Link: [http://www.fusioncharts.com/dashboards/music-player/]",
+        "JavaScript, Jekyll - At FusionCharts we decided to revamp the the entire documentation site. We faced the following challenges 1) The site is big with 2000+ URLs. So all the pages need to be redirected properly. 2) The new site should be easy for the content writers to add and integrate the content. 3) The new site should be loaded faster than the previous one. We created the site using Jekyll. Jekyll is based on MD files, so content writers can easily add and integrate new content. Since the site used common template for all the pages, we used History API and AJAX to load the page when the user navigates. This has increased the speed of the site by 2X. and it has saved the users an average of 5 seconds/session. Link: [http://www.fusioncharts.com/dev/]",
+        "JavaScript - Built a dashboard application for businesses which gives the user a snapshot as well as detailed view of his/her business data. The dashboard is built using Javascript and FusionCharts Library. The dashboard follows MVC approach.",
         "JavaScript - Built the collaboration dashboard, which enables the business users to share data and insights in their business dashboards in a social media like interface. The entire dashboard logic is written in vanilla javascript and using FusionCharts Library. Link: [http://www.fusioncharts.com/dashboards/collaboration/]",
         "Server-side JavaScript (AppScript) - Created a Google Doc plugin, which enables the content writers to convert / save / download the Google Doc into MD format. This plugin was published in Google App store for internal use. Link: [https://github.com/subramaniashiva/gdoc-markdown-converter]"
       ]
@@ -45,7 +48,7 @@
       "summary": "A service based company recognised as one of the promising startups by IIT Guwahathi in 2012 [http://www.gyancentral.com/articles/updates/placement/institute-updates/iit-guwahati-to-declare-techniche-2012] Was leading the web solutions wing responsible for developing websites and web applications.",
       "highlights": [
         "HTML5, CSS3 - Revamped the site of Spark n' Beyond from Flash to HTML5. The site received lot of attention (attracted businesses too) with an average of 1.5K users per month, and average of 3.5 minutes on the website. Link: [http://sparknbeyond.com/]",
-        "Responsive Development - Developed the entire user interface of Calibrace web application using Bootstrap and JQuery. Link: [www.calibrace.com]",
+        "Responsive Web Development - Developed the entire user interface of Calibrace web application using Bootstrap and JQuery. Link: [www.calibrace.com]",
         "PHP - Developed the website for caresquare - a crowd sourced health tips site for pregnant women.This application uses Facebook's API to post user's health tips in their profile as well as in the site. The health tips are stored in MySQL Database",
         "Joomla / Wordpress - Developed websites using Joomla and wordpress platforms. Have created custom themes. Link: [http://ruralchannels.ifmr.co.in/]"
       ]
@@ -77,6 +80,7 @@
         "Programming in Java",
         "Unix Systems",
         "Computer Architecture",
+        "Database Management Systems",
         "Artificial Intelligence"
       ]
     },
