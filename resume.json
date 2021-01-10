@@ -1,79 +1,172 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Siva Subramaniam R S",
-    "label": "JavaScript Developer",
-    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAQKAAAAJDM5M2M5OGQ2LTNlMzUtNDFhNS1hNDBmLTliOGUwNWMyMjZlNA.jpg",
+    "name": "Siva Subramaniam",
+    "label": "Senior Software Engineer",
+    "image": "https://media-exp1.licdn.com/dms/image/C4E03AQHRsB8rXEGmYg/profile-displayphoto-shrink_400_400/0/1608715647493?e=1616025600&v=beta&t=Hs_Kr_TGepe_iMXCEFhqFMG3FqGvsVQuFGytmlux4uc",
     "email": "vengaishiva@gmail.com",
-    "phone": "+91 8050093404",
-    "website": "http://subramaniashiva.github.io",
-    "summary": "A full stack developer by ability, JavaScript developer by heart. A constant learner who considers himself as a noob in Android and Angular JS now. Total experience is 5 years. Currently working with FusionCharts as Javascript developer. Before joining FusionCharts, tried his hands into entrepreneurship and got his fingers burnt. Was the Lead, Web Solutions for the company Spark n' Beyond which he was running with his friends for 2.5 years. It all started as a fresher out of college, who joined in Sapient as a C# developer in the year 2010.",
+    "phone": "",
+    "url": "https://medium.com/til-js",
+    "summary": "A full stack developer by ability, JavaScript developer by heart. Has 10 years of experience as software developer. Worked with ReactJS, Angular, NodeJS, MongoDB, Kafka, Kubernetes. Interested in mentoring juniors and enjoys pair programming. Have hands-on experience developing & deploying Microservices. Built scalable solutions using Apache-Kafka that serves millions of customers. Currently on his path to become an architect.",
     "location": {
-      "city": "Bangalore",
-      "countryCode": "IN"
+      "address": "",
+      "postalCode": "",
+      "city": "London",
+      "countryCode": "UK"
     },
     "profiles": [
-      {
-        "network": "Linkedin",
-        "url": "https://www.linkedin.com/profile/view?id=78238533"
-      },
       {
         "network": "Github",
         "username": "subramaniashiva",
         "url": "http://github.com/subramaniashiva"
+      },
+      {
+        "network": "Linkedin",
+        "username": "subramaniamsiva",
+        "url": "https://www.linkedin.com/in/subramaniamsiva/"
+      },
+      {
+        "network": "Medium",
+        "username": "til-js",
+        "url": "http://medium.com/til-js"
       }
     ]
   },
   "work": [
     {
-      "company": "FusionCharts",
+      "name": "CompareTheMarket",
+      "location": "London, UK",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "url": "https://www.comparethemarket.com",
+      "startDate": "2018-11-12",
+      "summary": "Working at Rewards team responsible for rewarding millions of customers in the UK with various offers like 2 for 1 on cinema tickets, 2 for 1 on meals and physical toys. Experience in developing full stack solutions using NodeJS, Mongo in the backend and ReactJS in the frontend. Experience with Microservices and Kubernetes. Built scalable solutions using Apache-Kafka.",
+      "highlights": [
+        "Architected a solution for getting daily reports related to meals offer from a third party SFTP server and making it appear in power BI. This helps the stakeholders to see how the offer is progressing. Handled the project end to end including requirements gathering, identifying potential solutions and development of the best possible solution. Used Node JS, Mongo and Apache Kafka.",
+        "Managed and fixed vulnerabilties of an internal legacy appliation whose development responsibility is shared across multiple teams. Liased with other teams for fixing the vulneralbilities which falls under their remit and devised solutions for fixing issues falling under my team.",
+        "Introduced a new testing strategy to the team which helped improve our test performance and prevented memory leaks."
+      ]
+    },
+    {
+      "name": "Wonga",
+      "location": "London, UK",
+      "description": "",
+      "position": "Senior JavaScript Engineer",
+      "url": "https://www.wonga.com",
+      "startDate": "2018-06-25",
+      "endDate": "2018-10-31",
+      "summary": "Part of the team responsible for maintaining the front-end application of Wonga. Involved in migrating PHP based application to Angular.",
+      "highlights": [
+        "Implemented A/B testing in the front-end to find out better performing variants in the application.",
+        "Involved in adding new features to the site using Angular 6 and migrating legacy PHP stuff over to Angular."
+      ]
+    },
+    {
+      "name": "Stratagem",
+      "location": "London, UK",
+      "description": "",
       "position": "Software Developer",
-      "website": "http://www.fusioncharts.com",
+      "startDate": "2017-08-07",
+      "endDate": "2018-04-30",
+      "summary": "Part of a small start-up team that built a product from scratch which helps users to take informed decisions on football bets.",
+      "highlights": [
+        "Involved in taking high level decisions about front-end stack.",
+        "Introduced light house tools and improved the performance of the application by 10%.",
+        "Part of the team responsible for creating the front-end application of StrataBet using Angular 5, TypeScript, TSLint and Karma."
+      ]
+    },
+    {
+      "name": "8x8",
+      "location": "London, UK",
+      "description": "",
+      "position": "JavaScript Developer",
+      "url": "https://www.8x8.com/",
+      "startDate": "2016-10-24",
+      "endDate": "2017-08-04",
+      "summary": "Part of the team responsible for developing and maintaining online contact centre application.",
+      "highlights": [
+        "Involved in migrating legacy Grunt, AngularJS based application to Webpack + ES6 + ESLint + Angular 2 combination.",
+        "Resposible for the maintainence of the exisiting legacy application by fixing issues."
+      ]
+    },
+    {
+      "name": "Zalando",
+      "location": "Berlin, Germany",
+      "description": "",
+      "position": "Front-end Developer",
+      "url": "https://www.zalando.de/",
+      "startDate": "2016-02-01",
+      "endDate": "2016-06-30",
+      "summary": "Part of the team responsible for creating a React based application from scratch which helps brands and influencers to work on projects. Used React, Redux, Redux-thunk, ESLint and Jest.",
+      "highlights": [
+        "Involved in high level decisions about the front-end stack and application code structure.",
+        "Overcame the challenge of learning a new front-end library (React) and implementing the solution using best practices."
+      ]
+    },
+    {
+      "name": "FusionCharts",
+      "location": "Bengaluru, India",
+      "description": "",
+      "position": "Front-end Developer",
+      "url": "https://www.fusioncharts.com",
       "startDate": "2014-08-01",
-      "summary": "FusionCharts is one of the industry's leading Javascript charting frameworks. Was a part of the developer team which creates dashboards using the FusionCharts Library. Also involved in creating tools for the content writers' team.",
+      "endDate": "2015-09-11",
+      "summary": "Part of the developer team which creates dashboards using the FusionCharts Library. Also involved in creating tools for the content writers' team.",
       "highlights": [
-        "Flickr New Tab for Chrome - Load the new tab page with a photo from Flickr Stream. You can choose the type of photos that you want to see. This extension is an improvement on the official flickr extension for chrome. This extension allows the user to select the type of images that they want to see. This extension is faster than the official flickr extension. I have created this as free time project. I have used DNS prefetch, localStorage, dynamic creation of image elements for improved performance. Full source code can be viewed here https://github.com/subramaniashiva/flickr-new-tab-chrome. The extension can be added to chrome from here : https://chrome.google.com/webstore/detail/flickr-new-tab/okjegjakfleakclpecombdodpfdkahea",
-        "JavaScript and HTML5 - Built an Audio Player with an equalizer using HTML5 Audio API and FusionCharts Library. Link: [http://www.fusioncharts.com/dashboards/music-player/]",
-        "JavaScript, Jekyll - At FusionCharts we decided to revamp the the entire documentation site. We faced the following challenges 1) The site is big with 2000+ URLs. So all the pages need to be redirected properly. 2) The new site should be easy for the content writers to add and integrate the content. 3) The new site should be loaded faster than the previous one. We created the site using Jekyll. Jekyll is based on MD files, so content writers can easily add and integrate new content. Since the site used common template for all the pages, we used History API and AJAX to load the page when the user navigates. This has increased the speed of the site by 2X. and it has saved the users an average of 5 seconds/session. Link: [http://www.fusioncharts.com/dev/]",
-        "JavaScript - Built a dashboard application for businesses which gives the user a snapshot as well as detailed view of his/her business data. The dashboard is built using Javascript and FusionCharts Library. The dashboard follows MVC approach.",
-        "JavaScript - Built the collaboration dashboard, which enables the business users to share data and insights in their business dashboards in a social media like interface. The entire dashboard logic is written in vanilla javascript and using FusionCharts Library. Link: [http://www.fusioncharts.com/dashboards/collaboration/]",
-        "Server-side JavaScript (AppScript) - Created a Google Doc plugin, which enables the content writers to convert / save / download the Google Doc into MD format. This plugin was published in Google App store for internal use. Link: [https://github.com/subramaniashiva/gdoc-markdown-converter]"
+        "Ported existing documentation website which contained 2000+ URLs into a new Jekyll based system. Jekyll system helped content writers to write documents directly in MarkDown format. Saved 5 seconds per session using better caching techniques and templates.",
+        "Built an Audio Player with an equalizer using HTML5 Audio API and FusionCharts Library."
       ]
     },
     {
-      "company": "Spark n' Beyond",
+      "name": "Spark n' Beyond",
+      "location": "Chennai, India",
+      "description": "",
       "position": "Entrepreneur, Lead - Web Solutions",
-      "website": "http://www.sparknbeyond.com",
-      "startDate": "2012-01-01",
+      "startDate": "2012-01-02",
       "endDate": "2014-04-30",
-      "summary": "A service based company recognised as one of the promising startups by IIT Guwahathi in 2012 [http://www.gyancentral.com/articles/updates/placement/institute-updates/iit-guwahati-to-declare-techniche-2012] Was leading the web solutions wing responsible for developing websites and web applications.",
+      "summary": "A service based company recognised as one of the promising startups by IIT Guwahathi in 2012. Was leading the web solutions wing responsible for developing websites and web applications.",
       "highlights": [
-        "HTML5, CSS3 - Revamped the site of Spark n' Beyond from Flash to HTML5. The site received lot of attention (attracted businesses too) with an average of 1.5K users per month, and average of 3.5 minutes on the website. Link: [http://sparknbeyond.com/]",
-        "Responsive Web Development - Developed the entire user interface of Calibrace web application using Bootstrap and JQuery. Link: [www.calibrace.com]",
-        "PHP - Developed the website for caresquare - a crowd sourced health tips site for pregnant women.This application uses Facebook's API to post user's health tips in their profile as well as in the site. The health tips are stored in MySQL Database",
-        "Joomla / Wordpress - Developed websites using Joomla and wordpress platforms. Have created custom themes. Link: [http://ruralchannels.ifmr.co.in/]"
+        "Revamped the site of Spark n' Beyond from Flash to HTML5. The site received lot of attention (attracted businesses too) with an average of 1.5K users per month, and average of 3.5 minutes on the website.",
+        "Developed websites using Joomla and wordpress platforms. Have created custom themes.",
+        "Created Resposive web applications from scratch using Bootstrap and jQuery."
       ]
     },
     {
-      "company": "Sapient",
-      "position": "Associate Technology - L1",
-      "website": "http://www.sapient.com",
+      "name": "Publicis Sapient",
+      "location": "Bengaluru, India",
+      "description": "",
+      "position": "Associate Developer",
+      "url": "https://www.publicissapient.com/",
       "startDate": "2010-07-05",
       "endDate": "2011-12-31",
-      "summary": "Worked as a C# / C++ developer in Sapient for the client Citadel, one of the leading hedge fund companies.",
+      "summary": "Worked as a C# / C++ developer in Sapient for the client Citadel, one of the leading hedge fund companies in the US.",
       "highlights": [
-        "Developed a complete Automated UI testing framework for windows using PRISM, C# and Ranorex tool",
-        "This testing framework accepts UI element's path and the data to be fed into that element as input and automatically runs the UI test, generates reports and mail them."
+        "Involved in developing an automation framework that can be used with ease by application testers. Used C# in the backend.",
+        "involved in a mini project which mimics the share market's matching system. Front end was designed in ASP and back end and matching algorithm was designed in C++."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "GCT Alumni Association",
+      "position": "Mentor",
+      "url": "https://www.gctalumni.org.in/",
+      "startDate": "2019-11-01",
+      "summary": "Mentoring current college students and help them build a portfolio.",
+      "highlights": [
+        "Guided couple of students to learn JavaScript and mentored their project."
       ]
     }
   ],
   "education": [
     {
       "institution": "Government College of Technology, Coimbatore",
+      "url": "https://gct.ac.in/",
       "area": "Information Technology",
       "studyType": "Bachelor",
       "startDate": "2006-08-07",
       "endDate": "2010-05-31",
-      "gpa": "8.3",
+      "score": "8.3",
       "courses": [
         "Data Structures and Algorithms",
         "Programming in C++",
@@ -81,39 +174,41 @@
         "Unix Systems",
         "Computer Architecture",
         "Database Management Systems",
-        "Artificial Intelligence"
+        "Introduction to Artificial Intelligence"
       ]
-    },
+    }
+  ],
+  "awards": [
     {
-      "institution": "Rosemary Matric Hr.Sec. School",
-      "area": "Maths, Compute Science",
-      "studyType": "HSC, State Board",
-      "startDate": "2004-06-01",
-      "endDate": "2006-03-31",
-      "gpa": "96.4%"
-    },
-    {
-      "institution": "St.John's Hr.Sec. School",
-      "area": "Maths, Science",
-      "studyType": "SSLC, State Board",
-      "startDate": "2003-06-01",
-      "endDate": "2004-04-30",
-      "gpa": "97%"
+      "title": "Best solution in the Hackathon",
+      "date": "2020-11-01",
+      "awarder": "KCT Tamil Mandram",
+      "summary": "Created a prototype which identifies the flower or tree uploaded by the user and returns the literature references about that species."
     }
   ],
   "skills": [
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "Vanilla JS",
-        "Front end",
-        "Basics of node.js"
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Frameworks and Libraries",
+      "level": "",
+      "keywords": [
+        "React",
+        "Angular",
+        "Express",
+        "Redux",
+        "Testing Library"
       ]
     },
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "HTML",
         "CSS",
@@ -123,19 +218,27 @@
     },
     {
       "name": "Web Page Optimization",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "Profiling",
         "Web Page Auditing"
       ]
     },
     {
-      "name": "Angular JS",
-      "level": "Beginner"
+      "name": "Databases",
+      "level": "",
+      "keywords": [
+        "Mongo DB"
+      ]
     },
     {
-      "name": "Android Application Development",
-      "level": "Beginner"
+      "name": "Dev Ops",
+      "level": "",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Microservices"
+      ]
     }
   ],
   "languages": [
@@ -150,18 +253,53 @@
     {
       "language": "Hindi",
       "fluency": "Intermediate"
-    },
-    {
-      "language": "French",
-      "fluency": "Beginner"
     }
   ],
   "interests": [
     {
-      "name": "Astronomy"
+      "name": "Books"
     },
+    {
+      "name": "Astronomy"
+    }, 
     {
       "name": "Psychology"
     }
-  ]
+  ],
+  "projects": [
+    {
+      "name": "Flickr Chrome Extension using Vanilla JS",
+      "description": "Published a 'New Tab' extension in Chrome store. The extension loads the new tab in Chrome with an image from Flickr.",
+      "highlights": [
+        "Faster than official Flickr extension",
+        "User can choose the type of image that they want to see."
+      ],
+      "url": "https://chrome.google.com/webstore/detail/flickr-new-tab/okjegjakfleakclpecombdodpfdkahea",
+      "roles": [
+        "Developer",
+        "Designer"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Website health check monitor using Raspberry Pi and Node.js",
+      "description": "A simple website health check monitor using Raspberry Pi 3 and Node.js.",
+      "highlights": [
+        "The Pi pings the website in frequent intervals and gets the status.",
+        "Sends mail to configured mail id if the site is down."
+      ],
+      "url": "https://medium.com/til-js/raspberry-pi-and-javascript-a-simple-site-health-check-monitor-part-1-e3f913d377c0#.m39hqfluz",
+      "roles": [
+        "Developer",
+        "Designer"
+      ],
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "elegant"
+  }
 }

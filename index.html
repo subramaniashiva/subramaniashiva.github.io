@@ -1,15 +1,246 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Siva Subramaniam R S</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- link rel="shortcut icon" href="favicon.ico" / -->
-    <style>
-      .relative {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Siva Subramaniam</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z1lat9');
+  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
+    url('fonts/icomoon.woff?z1lat9') format('woff'),
+    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gitlab .path1:before {
+  content: "\e906";
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path5:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-gitlab .path6:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(252, 109, 38);
+}
+.icon-gitlab .path7:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(252, 163, 38);
+}
+.icon-gitlab .path8:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(226, 67, 41);
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
+}
+.icon-telegram:before {
+  content: "\e904";
+}
+.icon-flickr:before {
+  content: "\f16e";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-linkedin:before {
+  content: "\f08c";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-googleplus:before {
+  content: "\f0d5";
+}
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-code:before {
+  content: "\f121";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-stackoverflow:before {
+  content: "\f16c";
+}
+.icon-bitbucket:before {
+  content: "\f171";
+}
+.icon-tumblr:before {
+  content: "\f173";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-skype:before {
+  content: "\f17e";
+}
+.icon-foursquare:before {
+  content: "\f180";
+}
+.icon-gittip:before {
+  content: "\f184";
+}
+.icon-gratipay:before {
+  content: "\f184";
+}
+.icon-stackexchange:before {
+  content: "\f18d";
+}
+.icon-vimeo:before {
+  content: "\f194";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
+}
+.icon-language:before {
+  content: "\f1ab";
+}
+.icon-child:before {
+  content: "\f1ae";
+}
+.icon-behance:before {
+  content: "\f1b5";
+}
+.icon-spotify:before {
+  content: "\f1bc";
+}
+.icon-soundcloud:before {
+  content: "\f1be";
+}
+.icon-codepen:before {
+  content: "\f1cb";
+}
+.icon-hackernews:before {
+  content: "\f1d4";
+}
+.icon-lastfm:before {
+  content: "\f202";
+}
+.icon-angellist:before {
+  content: "\f209";
+}
+.icon-facebook:before {
+  content: "\f230";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e605";
+}
+.icon-office:before {
+  content: "\e606";
+}
+.icon-clock:before {
+  content: "\e60a";
+}
+.icon-reddit:before {
+  content: "\e609";
+}
+.icon-profile:before {
+  content: "\e600";
+}
+.icon-tools:before {
+  content: "\e034";
+}
+.icon-location:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}
+.icon-phone:before {
+  content: "\e03f";
+}
+.icon-newspaper:before {
+  content: "\e607";
+}
+.icon-chevron-down:before {
+  content: "\e60c";
+}
+.icon-chevron-up:before {
+  content: "\e60d";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-board:before {
+  content: "\e608";
+}
+
+.relative {
   position: relative;
 }
 .clear-margin {
@@ -21,14 +252,19 @@
 .space-right {
   margin-right: 10px;
 }
-.icon-left {
+.space-bottom {
+  margin-bottom: 10px;
+}
+.mr-5 {
   margin-right: 5px;
 }
-.icon-right {
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-5 {
   margin-left: 5px;
 }
 .labels {
-  word-spacing: 5px;
   line-height: 2;
 }
 .label-keyword {
@@ -38,6 +274,10 @@
   font-size: 0.9em;
   padding: 5px;
   border: 1px solid #357ebd;
+  margin-right: 5px;
+}
+.label-keyword:last-child {
+  margin-right: 0;
 }
 .link-disguise {
   color: inherit;
@@ -53,24 +293,59 @@
     margin-bottom: 0;
   }
 }
+.fs-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fs-2x {
+  font-size: 2em;
+}
+.fs-3x {
+  font-size: 3em;
+}
+.fs-4x {
+  font-size: 4em;
+}
+.btn-circle-sm {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  outline: none !important;
+}
+/* the version when the icon file is last updated */
+@font-face {
+  font-family: 'jst-elegant';
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.12.0/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jst-elegant' !important;
+}
 body {
   font-family: 'Lato';
   background: #f0f0f0;
-  color: #333333;
+  color: #333;
 }
 .main {
   padding: 5px;
 }
 .card {
-  background: #ffffff;
+  background: white;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   min-height: 300px;
-  padding: 10px;
+  padding: 10px 0;
 }
 .card-nested {
   min-height: 0;
-  margin-bottom: 10px;
   border-width: 1px 0 0 0;
 }
 .card-nested:before,
@@ -97,12 +372,8 @@ body {
     float: none !important;
   }
 }
-.text-bolder {
-  font-weight: bold;
-}
 .background-details .detail {
   display: table;
-  padding: 10px 0;
 }
 .background-details .detail .icon {
   min-width: 45px;
@@ -187,6 +458,9 @@ body {
   top: 4px;
   left: -10px;
 }
+.mop-wrapper > p:last-child {
+  margin: 0;
+}
 /*
     Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
 */
@@ -201,7 +475,6 @@ body {
   display: block;
   border-radius: 50%;
   text-align: center;
-  padding-top: 10px;
   background-color: white;
   font-size: 1.5em;
   color: #357ebd;
@@ -209,6 +482,12 @@ body {
   position: fixed;
   bottom: 10px;
   right: 10px;
+  text-decoration: none !important;
+}
+.floating-nav-trigger > [class^="icon-"],
+.floating-nav-trigger [class*=" icon-"],
+.floating-nav-trigger > .close-icon {
+  line-height: 50px;
 }
 .floating-nav-trigger .close-icon {
   display: none;
@@ -216,7 +495,6 @@ body {
 .floating-nav-trigger:hover {
   color: #1f496e;
   background-color: #e6e6e6;
-  text-decoration: none;
 }
 .floating-nav-trigger.is-open {
   -webkit-box-shadow: none;
@@ -225,7 +503,7 @@ body {
 .floating-nav-trigger.is-open .close-icon {
   display: inherit;
 }
-.floating-nav-trigger.is-open .fa-bars {
+.floating-nav-trigger.is-open .icon-bars {
   display: none;
 }
 .floating-nav-trigger.is-open:hover {
@@ -271,9 +549,6 @@ body {
 .floating-nav ul li a:hover {
   color: #1f496e;
 }
-.floating-nav ul li i.fa {
-  margin-right: 10px;
-}
 .floating-nav ul li:last-child {
   border-bottom: 0;
 }
@@ -291,6 +566,9 @@ body {
   .profile-card-wrapper {
     position: relative;
   }
+}
+.profile-card-wrapper .profile-card {
+  padding: 10px;
 }
 .profile-pic {
   padding: 20px 0;
@@ -411,7 +689,7 @@ body {
   color: #005983;
 }
 .link-skype {
-  color: #12a5f4;
+  color: #12A5F4;
 }
 .link-skype:hover,
 .link-skype:focus {
@@ -419,12 +697,12 @@ body {
   color: #0986ca;
 }
 .link-instagram {
-  color: #3f729b;
+  color: #e4405f;
 }
 .link-instagram:hover,
 .link-instagram:focus {
   text-decoration: none;
-  color: #305777;
+  color: #d31e40;
 }
 .link-stackoverflow {
   color: #8e8e92;
@@ -483,7 +761,7 @@ body {
   color: #8c0717;
 }
 .link-gratipay {
-  color: #663300;
+  color: #630;
 }
 .link-gratipay:hover,
 .link-gratipay:focus {
@@ -563,7 +841,7 @@ body {
   color: #3b5687;
 }
 .link-angellist {
-  color: #000000;
+  color: black;
 }
 .link-angellist:hover,
 .link-angellist:focus {
@@ -577,6 +855,54 @@ body {
 .link-bitbucket:focus {
   text-decoration: none;
   color: #163758;
+}
+.link-hackernews {
+  color: #ff6600;
+}
+.link-hackernews:hover,
+.link-hackernews:focus {
+  text-decoration: none;
+  color: #cc5200;
+}
+.link-exercism {
+  color: #d81d4e;
+}
+.link-exercism:hover,
+.link-exercism:focus {
+  text-decoration: none;
+  color: #ab173e;
+}
+.link-blogger {
+  color: #FF9234;
+}
+.link-blogger:hover,
+.link-blogger:focus {
+  text-decoration: none;
+  color: #ff7701;
+}
+.link-medium {
+  color: #00AB6C;
+}
+.link-medium:hover,
+.link-medium:focus {
+  text-decoration: none;
+  color: #00784c;
+}
+.link-flickr {
+  color: black;
+}
+.link-flickr:hover,
+.link-flickr:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-telegram {
+  color: #3BABDD;
+}
+.link-telegram:hover,
+.link-telegram:focus {
+  text-decoration: none;
+  color: #2291c3;
 }
 .card-skills {
   position: relative;
@@ -614,7 +940,7 @@ body {
   background: #5cb85c;
 }
 .skill-info {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 @media (max-width: 480px) {
   .skill-info {
@@ -625,6 +951,9 @@ body {
   .quote {
     font-size: inherit;
   }
+}
+.icon-meetup .path2:before {
+  margin-left: 0;
 }
 @media print {
   a[href]:after {
@@ -662,504 +991,76 @@ body {
     page-break-before: always;
   }
 }
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#about"><i class="mr-10 icon-board"></i>About</a></li><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#projects-experience"><i class="mr-10 icon-code"></i>Projects Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li><li><a href="#awards"><i class="mr-10 icon-trophy"></i>Awards</a></li><li><a href="#volunteer-work"><i class="mr-10 icon-child"></i>Volunteer Work</a></li><li><a href="#interests"><i class="mr-10 icon-heart"></i>Interests</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Siva Subramaniam" src="https://s.gravatar.com/avatar/916f3c9b2f58a170985a041cc53adff4?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Siva Subramaniam</b></h3><h5 class="text-muted" itemprop="jobTitle">Senior Software Engineer</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">London, UK</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:vengaishiva@gmail.com" itemprop="email">vengaishiva@gmail.com</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">English, Tamil, Hindi</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-github icon-github" href="http://github.com/subramaniashiva" target="_blank" data-toggle="tooltip" title="Siva Subramaniam on Github"></a><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://www.linkedin.com/in/subramaniamsiva/" target="_blank" data-toggle="tooltip" title="Siva Subramaniam on Linkedin"></a><a class="fs-2x social-link link-medium icon-medium" href="http://medium.com/til-js" target="_blank" data-toggle="tooltip" title="Siva Subramaniam on Medium"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="about"><div class="icon"><i class="fs-lg icon-board"></i><span class="mobile-title">About</span></div><div class="info"><h4 class="title text-uppercase">About</h4><div class="card card-nested"><div class="content mop-wrapper" itemprop="description"><p>A full stack developer by ability, JavaScript developer by heart. Has 10 years of experience as software developer. Worked with ReactJS, Angular, NodeJS, MongoDB, Kafka, Kubernetes. Interested in mentoring juniors and enjoys pair programming. Have hands-on experience developing &amp; deploying Microservices. Built scalable solutions using Apache-Kafka that serves millions of customers. Currently on his path to become an architect.</p>
+</div></div></div></div><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Senior Software Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Nov, 2018 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>Working at Rewards team responsible for rewarding millions of customers in the UK with various offers like 2 for 1 on cinema tickets, 2 for 1 on meals and physical toys. Experience in developing full stack solutions using NodeJS, Mongo in the backend and ReactJS in the frontend. Experience with Microservices and Kubernetes. Built scalable solutions using Apache-Kafka.</p>
+</div><ul><li class="mop-wrapper"><p>Architected a solution for getting daily reports related to meals offer from a third party SFTP server and making it appear in power BI. This helps the stakeholders to see how the offer is progressing. Handled the project end to end including requirements gathering, identifying potential solutions and development of the best possible solution. Used Node JS, Mongo and Apache Kafka.</p>
+</li><li class="mop-wrapper"><p>Managed and fixed vulnerabilties of an internal legacy appliation whose development responsibility is shared across multiple teams. Liased with other teams for fixing the vulneralbilities which falls under their remit and devised solutions for fixing issues falling under my team.</p>
+</li><li class="mop-wrapper"><p>Introduced a new testing strategy to the team which helped improve our test performance and prevented memory leaks.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior JavaScript Engineer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jun, 2018 - Oct, 2018</span><span><i class="icon-clock mr-5"></i>4 months</span></small></p><div class="mop-wrapper space-bottom"><p>Part of the team responsible for maintaining the front-end application of Wonga. Involved in migrating PHP based application to Angular.</p>
+</div><ul><li class="mop-wrapper"><p>Implemented A/B testing in the front-end to find out better performing variants in the application.</p>
+</li><li class="mop-wrapper"><p>Involved in adding new features to the site using Angular 6 and migrating legacy PHP stuff over to Angular.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Software Developer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Aug, 2017 - Apr, 2018</span><span><i class="icon-clock mr-5"></i>8 months</span></small></p><div class="mop-wrapper space-bottom"><p>Part of a small start-up team that built a product from scratch which helps users to take informed decisions on football bets.</p>
+</div><ul><li class="mop-wrapper"><p>Involved in taking high level decisions about front-end stack.</p>
+</li><li class="mop-wrapper"><p>Introduced light house tools and improved the performance of the application by 10%.</p>
+</li><li class="mop-wrapper"><p>Part of the team responsible for creating the front-end application of StrataBet using Angular 5, TypeScript, TSLint and Karma.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>JavaScript Developer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Oct, 2016 - Aug, 2017</span><span><i class="icon-clock mr-5"></i>9 months</span></small></p><div class="mop-wrapper space-bottom"><p>Part of the team responsible for developing and maintaining online contact centre application.</p>
+</div><ul><li class="mop-wrapper"><p>Involved in migrating legacy Grunt, AngularJS based application to Webpack + ES6 + ESLint + Angular 2 combination.</p>
+</li><li class="mop-wrapper"><p>Resposible for the maintainence of the exisiting legacy application by fixing issues.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Front-end Developer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Feb, 2016 - Jun, 2016</span><span><i class="icon-clock mr-5"></i>5 months</span></small></p><div class="mop-wrapper space-bottom"><p>Part of the team responsible for creating a React based application from scratch which helps brands and influencers to work on projects. Used React, Redux, Redux-thunk, ESLint and Jest.</p>
+</div><ul><li class="mop-wrapper"><p>Involved in high level decisions about the front-end stack and application code structure.</p>
+</li><li class="mop-wrapper"><p>Overcame the challenge of learning a new front-end library (React) and implementing the solution using best practices.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Front-end Developer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Aug, 2014 - Sep, 2015</span><span><i class="icon-clock mr-5"></i>1 year 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>Part of the developer team which creates dashboards using the FusionCharts Library. Also involved in creating tools for the content writers' team.</p>
+</div><ul><li class="mop-wrapper"><p>Ported existing documentation website which contained 2000+ URLs into a new Jekyll based system. Jekyll system helped content writers to write documents directly in MarkDown format. Saved 5 seconds per session using better caching techniques and templates.</p>
+</li><li class="mop-wrapper"><p>Built an Audio Player with an equalizer using HTML5 Audio API and FusionCharts Library.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Entrepreneur, Lead - Web Solutions</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jan, 2012 - Apr, 2014</span><span><i class="icon-clock mr-5"></i>2 years 3 months</span></small></p><div class="mop-wrapper space-bottom"><p>A service based company recognised as one of the promising startups by IIT Guwahathi in 2012. Was leading the web solutions wing responsible for developing websites and web applications.</p>
+</div><ul><li class="mop-wrapper"><p>Revamped the site of Spark n' Beyond from Flash to HTML5. The site received lot of attention (attracted businesses too) with an average of 1.5K users per month, and average of 3.5 minutes on the website.</p>
+</li><li class="mop-wrapper"><p>Developed websites using Joomla and wordpress platforms. Have created custom themes.</p>
+</li><li class="mop-wrapper"><p>Created Resposive web applications from scratch using Bootstrap and jQuery.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Associate Developer</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right">Jul, 2010 - Dec, 2011</span><span><i class="icon-clock mr-5"></i>1 year 5 months</span></small></p><div class="mop-wrapper space-bottom"><p>Worked as a C# / C++ developer in Sapient for the client Citadel, one of the leading hedge fund companies in the US.</p>
+</div><ul><li class="mop-wrapper"><p>Involved in developing an automation framework that can be used with ease by application testers. Used C# in the backend.</p>
+</li><li class="mop-wrapper"><p>involved in a mini project which mimics the share market's matching system. Front end was designed in ASP and back end and matching algorithm was designed in C++.</p>
+</li></ul></div></li></ul></div></div><div class="detail" id="projects-experience"><div class="icon"><i class="fs-lg icon-code"></i><span class="mobile-title">Projects Experience</span></div><div class="info"><h4 class="title text-uppercase">Projects Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Flickr Chrome Extension using Vanilla JS</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right"> - Present</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>Faster than official Flickr extension</p>
+</li><li class="mop-wrapper"><p>User can choose the type of image that they want to see.</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>Website health check monitor using Raspberry Pi and Node.js</strong>,&nbsp;</p><p class="text-muted"><small><span class="space-right"> - Present</span></small></p><div class="mop-wrapper space-bottom"></div><ul><li class="mop-wrapper"><p>The Pi pings the website in frequent intervals and gets the status.</p>
+</li><li class="mop-wrapper"><p>Sends mail to configured mail id if the site is down.</p>
+</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-info"><strong>JavaScript</strong><div class="space-top labels"><span class="label label-keyword">Vanilla JS</span><span class="label label-keyword">Node.js</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Frameworks and Libraries</strong><div class="space-top labels"><span class="label label-keyword">React</span><span class="label label-keyword">Angular</span><span class="label label-keyword">Express</span><span class="label label-keyword">Redux</span><span class="label label-keyword">Testing Library</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Web Development</strong><div class="space-top labels"><span class="label label-keyword">HTML</span><span class="label label-keyword">CSS</span><span class="label label-keyword">SASS</span><span class="label label-keyword">Responsive Web Development</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Web Page Optimization</strong><div class="space-top labels"><span class="label label-keyword">Profiling</span><span class="label label-keyword">Web Page Auditing</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Databases</strong><div class="space-top labels"><span class="label label-keyword">Mongo DB</span></div></div></li><li class="card card-nested card-skills"><div class="skill-info"><strong>Dev Ops</strong><div class="space-top labels"><span class="label label-keyword">Docker</span><span class="label label-keyword">Kubernetes</span><span class="label label-keyword">Microservices</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Information Technology, Bachelor,&nbsp;</strong>Government College of Technology, Coimbatore</p><p class="text-muted"><small>Aug, 2006 - May, 2010</small></p><i></i><div class="space-top labels"><span class="label label-keyword">Data Structures and Algorithms</span><span class="label label-keyword">Programming in C++</span><span class="label label-keyword">Programming in Java</span><span class="label label-keyword">Unix Systems</span><span class="label label-keyword">Computer Architecture</span><span class="label label-keyword">Database Management Systems</span><span class="label label-keyword">Introduction to Artificial Intelligence</span></div></div></li></ul></div></div></div><div class="detail" id="awards"><div class="icon"><i class="fs-lg icon-trophy"></i><span class="mobile-title">Awards</span></div><div class="info"><h4 class="title text-uppercase">Awards</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin" itemprop="award"><strong>Best solution in the Hackathon </strong>KCT Tamil Mandram</p><p class="text-muted"><small>Awarded on: Nov 01, 2020</small></p><div class="mop-wrapper"><p>Created a prototype which identifies the flower or tree uploaded by the user and returns the literature references about that species.</p>
+</div></div></li></ul></div></div></div><div class="detail" id="volunteer-work"><div class="icon"><i class="fs-lg icon-child"></i><span class="mobile-title">Volunteer Work</span></div><div class="info"><h4 class="title text-uppercase">Volunteer Work</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Volunteering" data-placement="left"></i><strong>Mentor, </strong>GCT Alumni Association</p><p class="text-muted"><small>Nov, 2019 - Present</small></p><div class="mop-wrapper"><p>Mentoring current college students and help them build a portfolio.</p>
+</div><ul><li class="mop-wrapper"><p>Guided couple of students to learn JavaScript and mentored their project.</p>
+</li></ul></div></li></ul></div></div></div><div class="detail" id="interests"><div class="icon"><i class="fs-lg icon-heart"></i><span class="mobile-title">Interests</span></div><div class="info"><h4 class="title text-uppercase">Interests</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><p><strong>Books</strong></p></li><li class="card card-nested"><p><strong>Astronomy</strong></p></li><li class="card card-nested"><p><strong>Psychology</strong></p></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
+  var toggleFloatingMenu = function() {
+    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+  };
 
-    </style>
-    <!-- Start Visual Website Optimizer Asynchronous Code -->
-  <script type='text/javascript'>
-  var _vwo_code=(function(){
-  var account_id=199688,
-  settings_tolerance=2000,
-  library_tolerance=2500,
-  use_existing_jquery=false,
-  // DO NOT EDIT BELOW THIS LINE
-  f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
-  </script>
-<!-- End Visual Website Optimizer Asynchronous Code -->
-  </head>
+  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+  $( "[data-toggle=tooltip]" ).tooltip();
+  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+    e.preventDefault();
+    toggleFloatingMenu();
+  });
+  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
 
-  <body itemscope itemtype="http://schema.org/Person">
-    <script>
-      window.onload = function () {
-        var toggleFloatingMenu = function() {
-          $( '.js-floating-nav' ).toggleClass( 'is-visible' );
-          $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
-        };
+  $("#remaining-profiles").on('show.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-down' )
+      .addClass( 'icon-chevron-up' );
+  });
 
-        $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
-        $( "[rel=tooltip]" ).tooltip();
-        $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
-          e.preventDefault();
-          toggleFloatingMenu();
-        });
-        $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
-      }
-    </script>
-    <div class="container-fluid">
-      <div class="row main clearfix">
-        <a href="#" class="js-floating-nav-trigger floating-nav-trigger">
-          <i class="fa fa-bars"></i>
-          <span class="close-icon">&times;</span>
-        </a>
-        <nav class="floating-nav js-floating-nav">
-          <ul class="list-unstyled">
-            <li>
-              <a href="#about">
-                <i class="fa fa-user"></i>
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#work-experience">
-                <i class="fa fa-building"></i>
-                Work Experience
-              </a>
-            </li>
-            <li>
-              <a href="#skills">
-                <i class="fa fa-code"></i>
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="#education">
-                <i class="fa fa-mortar-board"></i>
-                Education
-              </a>
-            </li>
-              <li>
-                <a href="#interests">
-                  <i class="fa fa-heart"></i>
-                  Interests
-                </a>
-              </li>
-          </ul>
-        </nav>
-
-        <section class="col-md-3 card-wrapper profile-card-wrapper affix">
-          <div class="card profile-card">
-              <span class="profile-pic-container">
-                <div class="profile-pic">
-                  <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
-                    alt="Siva Subramaniam R S" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAQKAAAAJDM5M2M5OGQ2LTNlMzUtNDFhNS1hNDBmLTliOGUwNWMyMjZlNA.jpg" itemprop="image">
-                </div>
-
-                <div class="name-and-profession">
-                  <h3 class="text-center text-bolder name" itemprop="name"> Siva Subramaniam R S</h3>
-                  <h5 class="text-muted text-center" itemprop="jobTitle">JavaScript Developer</h5>
-                </div>
-              </span>
-              <hr>
-
-              <div class="contact-details clearfix">
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-location-arrow"></i>
-                    </span>
-                    <span class="info">
-                      Bangalore, IN
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-phone"></i>
-                    </span>
-
-                    <span class="info" itemprop="telephone">
-                      +91 8050093404
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-envelope"></i>
-                    </span>
-
-                    <span class="info">
-                      <a href="/cdn-cgi/l/email-protection#a3d5c6cdc4c2cad0cbcad5c2e3c4cec2cacf8dc0ccce" class="link-disguise" itemprop="email"><span class="__cf_email__" data-cfemail="097f6c676e68607a61607f68496e64686065276a6664">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a>
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-link"></i>
-                    </span>
-
-                    <span class="info">
-                      <a href="http://subramaniashiva.github.io" target="_blank">http://subramaniashiva.github.io</a>
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon" title="Languages I speak">
-                      <i class="fa fa-lg fa-language"></i>
-                    </span>
-
-                    <span class="info">
-                      English, Tamil, Hindi, French
-                    </span>
-                  </div>
-              </div>
-
-              <hr>
-
-              <div class="social-links text-center">
-                  <a class="fa fa-linkedin fa-2x social-link link-linkedin"
-                       href="https://www.linkedin.com/profile/view?id=78238533" target="_blank"></a>
-                  <a class="fa fa-github fa-2x social-link link-github"
-                       href="//github.com/subramaniashiva" target="_blank"></a>
-              </div>
-          </div>
-        </section>
-
-        <section class="col-md-9 card-wrapper pull-right">
-          <div class="card background-card">
-            <h4 class="text-uppercase text-bolder">Background</h4>
-            <hr>
-
-            <div class="background-details">
-              <div class="detail" id="about">
-                <div class="icon">
-                  <i class="fa fa-lg fa-user"></i>
-                  <span class="mobile-title">About</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">
-                    About
-                  </h4>
-
-                  <div class="content" itemprop="description">
-                    A full stack developer by ability, JavaScript developer by heart. A constant learner who considers himself as a noob in Android and Angular JS now. Total experience is 5 years. Currently working with FusionCharts as Javascript developer. Before joining FusionCharts, tried his hands into entrepreneurship and got his fingers burnt. Was the Lead, Web Solutions for the company Spark n&#x27; Beyond which he was running with his friends for 2.5 years. It all started as a fresher out of college, who joined in Sapient as a C# developer in the year 2010.
-                  </div>
-                </div>
-              </div>
-
-              <div class="detail" id="work-experience">
-                <div class="icon">
-                  <i class="fa fa-lg fa-building"></i>
-                  <span class="mobile-title">Work Experience</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">
-                    Work Experience
-                  </h4>
-
-                  <ul class="list-unstyled">
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                              <i class="fa fa-circle current-event"
-                                 rel="tooltip" title="Currently Working" data-placement="left"></i>
-                            <strong>Software Developer</strong>,&nbsp;
-                              <a href="http://www.fusioncharts.com"  target="_blank">FusionCharts</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Aug, 2014 -
-                                  Present
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  1 year
-                                </span>
-                            </small>
-                          </p>
-                          <p>FusionCharts is one of the industry&#x27;s leading Javascript charting frameworks. Was a part of the developer team which creates dashboards using the FusionCharts Library. Also involved in creating tools for the content writers&#x27; team.</p>
-                            <ul>
-                                <li> <p><b>Flickr New Tab for Chrome</b> - Load the new tab page with a photo from Flickr Stream. You can choose the type of photos that you want to see. This extension is an improvement on the official flickr extension for chrome. This extension allows the user to select the type of images that they want to see. This extension is faster than the official flickr extension. I have created this as free time project. I have used DNS prefetch, localStorage, dynamic creation of image elements for improved performance. Full source code can be viewed here <a href='https://github.com/subramaniashiva/flickr-new-tab-chrome' target='_blank'>https://github.com/subramaniashiva/flickr-new-tab-chrome</a>.</p>
-                                <p>The extension can be added to chrome from here : <a href='https://chrome.google.com/webstore/detail/flickr-new-tab/okjegjakfleakclpecombdodpfdkahea' target='_blank'>https://chrome.google.com/webstore/detail/flickr-new-tab/okjegjakfleakclpecombdodpfdkahea</a></p></li>
-                                <li> <p><b>JavaScript and HTML5</b> - Built an Audio Player with an equalizer using HTML5 Audio API and FusionCharts Library.</p>
-                                <p>Link: <a href='http://www.fusioncharts.com/dashboards/music-player/' target='_blank'>http://www.fusioncharts.com/dashboards/music-player/</a></p></li>
-                                <li><p></b>JavaScript, Jekyll</b> - At FusionCharts we decided to revamp the the entire documentation site. We faced the following challenges 1) The site is big with 2000+ URLs. So all the pages need to be redirected properly. 2) The new site should be easy for the content writers to add and integrate the content. 3) The new site should be loaded faster than the previous one. We created the site using Jekyll. Jekyll is based on MD files, so content writers can easily add and integrate new content. Since the site used common template for all the pages, we used History API and AJAX to load the page when the user navigates. This has increased the speed of the site by 2X. and it has saved the users an average of 5 seconds/session.</p>
-                                <p>Link: <a href='http://www.fusioncharts.com/dev/' target='_blank'>http://www.fusioncharts.com/dev/</a><p></li>
-                                <li><p><b>JavaScript</b> - Built a dashboard application for businesses which gives the user a snapshot as well as detailed view of his/her business data. The dashboard is built using Javascript and FusionCharts Library. The dashboard follows MVC approach.<p>
-                                <p>Link: <a href='http://www.fusioncharts.com/dashboards/management-dashboard/' target='_blank'>http://www.fusioncharts.com/dashboards/management-dashboard/</a></p></li>
-                                <li><p><b>JavaScript</b> - Built the collaboration dashboard, which enables the business users to share data and insights in their business dashboards in a social media like interface. The entire dashboard logic is written in vanilla javascript and using FusionCharts Library.</p>
-                                <p>Link: <a href='http://www.fusioncharts.com/dashboards/collaboration/' target='_blank'>http://www.fusioncharts.com/dashboards/collaboration/</a></p></li>
-                                <li><p></b>Server-side JavaScript (AppScript)</b> - Created a Google Doc plugin, which enables the content writers to convert / save / download the Google Doc into MD format. This plugin was published in Google App store for internal use.</p>
-                                <p>Link: <a href='https://github.com/subramaniashiva/gdoc-markdown-converter' target='_blank'>https://github.com/subramaniashiva/gdoc-markdown-converter</a></p></li>
-                            </ul>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                            <strong>Entrepreneur, Lead - Web Solutions</strong>,&nbsp;
-                              <a href="http://www.sparknbeyond.com"  target="_blank">Spark n&#x27; Beyond</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Jan, 2012 -
-                                  Apr, 2014
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  2 years 4 months
-                                </span>
-                            </small>
-                          </p>
-                          <p>A service based company recognised as one of the promising startups by IIT Guwahathi in 2012 [http://www.gyancentral.com/articles/updates/placement/institute-updates/iit-guwahati-to-declare-techniche-2012] Was leading the web solutions wing responsible for developing websites and web applications.</p>
-                            <ul>
-                                <li><p><b>HTML5, CSS3</b> - Revamped the site of Spark n&#x27; Beyond from Flash to HTML5. The site received lot of attention (attracted businesses too) with an average of 1.5K users per month, and average of 3.5 minutes on the website.</p>
-                                <p>Link: <a href='http://sparknbeyond.com/' target='_blank'>http://sparknbeyond.com/</a></p></li>
-                                <li><p><b>Responsive Web Development</b> - Developed the entire user interface of Calibrace web application using Bootstrap and JQuery.<p>
-                                <p>Link: <a href='http://www.calibrace.com' target='_blank'>http://www.calibrace.com</a></p></li>
-                                <li><p><b>PHP</b> - Developed the website for caresquare - a crowd sourced health tips site for pregnant women.This application uses Facebook&#x27;s API to post user&#x27;s health tips in their profile as well as in the site. The health tips are stored in MySQL Database</p></li>
-                                <li><p><b>Joomla / Wordpress</b> - Developed websites using Joomla and wordpress platforms. Have created custom themes.</p>
-                                <p>Link: <a href='http://ruralchannels.ifmr.co.in/' target='_blank'>http://ruralchannels.ifmr.co.in/</a></p></li>
-                            </ul>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                            <strong>Associate Technology - L1</strong>,&nbsp;
-                              <a href="http://www.sapient.com"  target="_blank">Sapient</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Jul, 2010 -
-                                  Dec, 2011
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  1 year 5 months
-                                </span>
-                            </small>
-                          </p>
-                          <p>Worked as a C# / C++ developer in Sapient for the client Citadel, one of the leading hedge fund companies.</p>
-                            <ul>
-                                <li> Developed a complete Automated UI testing framework for windows using PRISM, C# and Ranorex tool </li>
-                                <li> This testing framework accepts UI element&#x27;s path and the data to be fed into that element as input and automatically runs the UI test, generates reports and mail them. </li>
-                            </ul>
-                        </div>
-                      </li>
-                  </ul>
-                </div>
-              </div>
-
-                <div class="detail" id="skills">
-                  <div class="icon">
-                    <i class="fa fa-lg fa-code"></i>
-                    <span class="mobile-title">Skills</span>
-                  </div>
-                  <div class="info">
-                    <h4 class="title text-uppercase">
-                      Skills
-                    </h4>
-
-                    <div class="content">
-                      <ul class="list-unstyled">
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-                                <div class="skill-progress master">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>JavaScript</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">Vanilla JS</span>
-                                  <span class="label label-keyword">Front end</span>
-                                  <span class="label label-keyword">Basics of node.js</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-                                <div class="skill-progress master">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Web Development</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">HTML</span>
-                                  <span class="label label-keyword">CSS</span>
-                                  <span class="label label-keyword">SASS</span>
-                                  <span class="label label-keyword">Responsive Web Development</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-                                <div class="skill-progress master">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Web Page Optimization</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">Profiling</span>
-                                  <span class="label label-keyword">Web Page Auditing</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Beginner" data-placement="left">
-                                <div class="skill-progress beginner">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Angular JS</strong>
-
-                              <div class="space-top labels">
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Beginner" data-placement="left">
-                                <div class="skill-progress beginner">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Android Application Development</strong>
-
-                              <div class="space-top labels">
-                              </div>
-                            </div>
-                          </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-              <div class="detail" id="education">
-                <div class="icon">
-                  <i class="fa fa-lg fa-mortar-board"></i>
-                  <span class="mobile-title">Education</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">
-                    Education
-                  </h4>
-
-                  <div class="content">
-                    <ul class="list-unstyled">
-                        <li class="card card-nested">
-                          <div class="content">
-                            <p class="clear-margin relative">
-
-                              <strong>Information Technology, Bachelor</strong>,&nbsp;
-                              Government College of Technology, Coimbatore
-                            </p>
-                            <p class="text-muted">
-                              <small>
-                                Aug, 2006 -
-                                  May, 2010
-                              </small>
-                            </p>
-                            <i>8.3</i>
-                            <div class="space-top labels">
-                                <span class="label label-keyword">Data Structures and Algorithms</span>
-                                <span class="label label-keyword">Programming in C++</span>
-                                <span class="label label-keyword">Programming in Java</span>
-                                <span class="label label-keyword">Unix Systems</span>
-                                <span class="label label-keyword">Computer Architecture</span>
-                                <span class="label label-keyword">Database Management Systems</span>
-                                <span class="label label-keyword">Artificial Intelligence</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="card card-nested">
-                          <div class="content">
-                            <p class="clear-margin relative">
-
-                              <strong>Maths, Compute Science, HSC, State Board</strong>,&nbsp;
-                              Rosemary Matric Hr.Sec. School
-                            </p>
-                            <p class="text-muted">
-                              <small>
-                                Jun, 2004 -
-                                  Mar, 2006
-                              </small>
-                            </p>
-                            <i>96.4%</i>
-                            <div class="space-top labels">
-                            </div>
-                          </div>
-                        </li>
-                        <li class="card card-nested">
-                          <div class="content">
-                            <p class="clear-margin relative">
-
-                              <strong>Maths, Science, SSLC, State Board</strong>,&nbsp;
-                              St.John&#x27;s Hr.Sec. School
-                            </p>
-                            <p class="text-muted">
-                              <small>
-                                Jun, 2003 -
-                                  Apr, 2004
-                              </small>
-                            </p>
-                            <i>97%</i>
-                            <div class="space-top labels">
-                            </div>
-                          </div>
-                        </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-                <div class="detail" id="interests">
-                  <div class="icon">
-                    <i class="fa fa-lg fa-heart"></i>
-                    <span class="mobile-title">Interests</span>
-                  </div>
-                  <div class="info">
-                    <h4 class="title text-uppercase">
-                      Interests
-                    </h4>
-
-                    <div class="content">
-                      <ul class="list-unstyled">
-                          <li class="card card-nested">
-                            <p>
-                              <strong>Astronomy</strong>
-                            </p>
-
-                            <div class="space-top labels">
-                            </div>
-                          </li>
-                          <li class="card card-nested">
-                            <p>
-                              <strong>Psychology</strong>
-                            </p>
-
-                            <div class="space-top labels">
-                            </div>
-                          </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js"></script>
-  <script type="text/javascript">
-/* <![CDATA[ */
-(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
-/* ]]> */
-</script>
-</body>
-</html>
+  $("#remaining-profiles").on('hidden.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-up' )
+      .addClass( 'icon-chevron-down' );
+  });
+});
+</script><script>WebFontConfig = {
+  google: { families: [ 'Lato:300,400,700:latin' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();</script></body></html>
