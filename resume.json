@@ -42,8 +42,8 @@
       "startDate": "2018-11-12",
       "summary": "Working at Rewards team responsible for rewarding millions of customers in the UK with various offers like 2 for 1 on cinema tickets, 2 for 1 on meals and physical toys. Experience in developing full stack solutions using NodeJS, Mongo in the backend and ReactJS in the frontend. Experience with Microservices and Kubernetes. Built scalable solutions using Apache-Kafka.",
       "highlights": [
-        "Architected a solution for getting daily reports related to meals offer from a third party SFTP server and making it appear in power BI. This helps the stakeholders to see how the offer is progressing. Handled the project end to end including requirements gathering, identifying potential solutions and development of the best possible solution. Used Node JS, Mongo and Apache Kafka.",
-        "Managed and fixed vulnerabilties of an internal legacy appliation whose development responsibility is shared across multiple teams. Liased with other teams for fixing the vulneralbilities which falls under their remit and devised solutions for fixing issues falling under my team.",
+        "Architected a solution for getting daily reports related to meals offer from a third party SFTP server and making it appear in power BI. Handled the project end to end including requirements gathering, identifying potential solutions and development of the best possible solution",
+        "Managed and fixed vulnerabilities of an internal legacy c whose development responsibility is shared across multiple teams. Liaised with other teams for fixing the vulnerabilities which falls under their remit and devised solutions for fixing issues falling under my team",
         "Introduced a new testing strategy to the team which helped improve our test performance and prevented memory leaks."
       ]
     },
@@ -142,7 +142,7 @@
       "summary": "Worked as a C# / C++ developer in Sapient for the client Citadel, one of the leading hedge fund companies in the US.",
       "highlights": [
         "Involved in developing an automation framework that can be used with ease by application testers. Used C# in the backend.",
-        "involved in a mini project which mimics the share market's matching system. Front end was designed in ASP and back end and matching algorithm was designed in C++."
+        "Involved in a mini project which mimics the share market's matching system. Front end was designed in ASP and back end and matching algorithm was designed in C++."
       ]
     }
   ],
